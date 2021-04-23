@@ -19,7 +19,7 @@ topics:
 The audit log lists events triggered by activities that affect your organization within the last 90 days. Only owners can access an organization's audit log.
 
 {% data reusables.profile.access_org %}
-{% data reusables.organizations.org_settings %}
+{% data reusables.profiles.org_settings %}
 {% data reusables.audit_log.audit_log_sidebar_for_org_admins %}
 
 ### Searching the audit log
@@ -142,9 +142,9 @@ For example, you can make a GraphQL request to see all the new organization memb
 
 #### Using the REST API
 
-{% note %} 
+{% note %}
 
-**Note:** The audit log REST API is available for users of {% data variables.product.prodname_ghe_cloud %} only. 
+**Note:** The audit log REST API is available for users of {% data variables.product.prodname_ghe_cloud %} only.
 
 {% endnote %}
 
